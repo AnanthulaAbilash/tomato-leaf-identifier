@@ -4,9 +4,9 @@
   "description": "stock analysis app",
   "main": "bundle1306d16da579f4a7bef4.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "node server.js",
-    "start": "serve -s build "
+    "test": "echo \"Error: no test specified\" && exit 1",    
+    "start": "serve -s build ",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install"
   },
   "keywords": [
     "stock"
